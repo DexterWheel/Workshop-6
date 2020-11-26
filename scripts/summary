@@ -1,0 +1,31 @@
+The aim of this topic is to introduce you to a specific supervised learning method, Linear Discriminant Analysis, which will illustrate some general concepts in supervised learning such as overfitting, training and testing and confusion matrices.
+
+Linear Discriminant Analysis (LDA) aims to find linear combination of variables the maximise differences between groups.
+
+It is supervised because we label observations by their class and determine the allocation rules based on these.
+
+A ‘discriminant’ is a linear combination of variables that best separates the groups. If there are n classes we have, at most, n−1 discriminants.
+
+The lda() function is in a package called MASS (Venables and Ripley, 2002) which is part of the base R distribution so you do not need to install it.
+
+
+Overfitting
+
+When we a take a hypothesis testing perspective in which the goal is to explain a response and determine whether specific variables have a significant effect on the response, we typically use all the data we have.
+
+A problem with this approach is that we cannot be sure the model we have fitted to our data is generalisable. That is, we do not know how well the model would predict the responses for a new data set. This is known as overfitting.
+
+Overfitting is when your model fits the data you have very well but does not generalise. You can think of it as fitting the random variation in the data in addition to the non-random variation.
+
+
+
+
+A key concept of using supervised ML methods build the model on approximately 75% of the data and test it on the remaining 25%. Building the model is known as 'training' the model.
+
+The caret package (Kuhn, 2020) includes functions to facilitate training and testing - in addition to many ML algorithms.
+
+
+
+
+
+
