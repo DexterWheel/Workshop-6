@@ -1,3 +1,10 @@
+unsupervised = looking for structure
+
+supervised = asking a question
+
+
+
+
 The aim of this topic is to introduce you to a specific supervised learning method, Linear Discriminant Analysis, which will illustrate some general concepts in supervised learning such as overfitting, training and testing and confusion matrices.
 
 Linear Discriminant Analysis (LDA) aims to find linear combination of variables the maximise differences between groups.

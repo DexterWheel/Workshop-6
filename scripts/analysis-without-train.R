@@ -104,3 +104,7 @@ lda_labelled %>%
 
 
 #The separation between species is stronger in the LDA than in the PCA
+
+#We used the same data to train the LDA model as we used to examine its performance. Few were incorrectly classified. But this is not very robust - we could have overfitting.
+
+#We can use the caret function createDataPartition() to split the dataset in to training and testing sets.
